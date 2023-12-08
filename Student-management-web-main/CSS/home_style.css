@@ -1,0 +1,254 @@
+html {
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    background-color: #4d5156;
+    color: #e2e2e6;
+}
+h1 {
+    text-align: center;
+    color: #F00;
+    font-family: Arial;
+}
+/*-------------------menu---------------------*/
+.menu {
+
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: #CCC;
+    
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    position: relative;
+    
+}
+
+.menu ul li a:hover {
+   
+    background-color: #333;
+    color: #FFF;
+    line-height: 95px;
+    border-bottom: 2px solid #F00;
+}
+
+.menu ul li a {
+    color: yellow;
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: Arial;
+    color: #000;
+    font-size: 14px;
+    line-height: 95px;
+    display: block;
+}
+
+/*--------------------------------------*/
+form {
+    position:absolute;
+    margin: 0px 100px 0px 100px;
+    align-content: center;
+    border: 3px solid #f1f1f1;
+    top: 31.5%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+}
+button {
+    background-color: #4CAF50;
+    width: auto;
+    color: orange;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius:20px;
+}
+
+button:hover {
+    opacity: 0.7;
+}   
+
+input[type=text], input[type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    display: block;
+    border: 2px solid green;
+    box-sizing: border-box;
+    border-radius:20px;
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    margin: 10px 5px;
+}
+
+.container {
+    width:80%;
+    height:900px;
+    margin:auto;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+
+
+
+
+/*------------------------header-------------------------*/
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+li,a,button{
+    font-family:'Montserrat',sans-serif;
+    font-weight:500;
+    font-size:16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:30px 10%;
+}
+
+.logo{
+    cursor:pointer;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:#0088a9;
+}
+
+button{
+    padding:9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius:50px;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+/*-------------------content----------------------*/
+.student_details {
+    width:50%;
+    float: left;
+    font-size: 20px;;
+  
+}
+
+.maincontent {
+    width:100%;
+    min-height:320px;
+    background-color: #FCF8E8;
+}
+
+.announcement {
+    width:40%;
+    float: right;
+}
+.courses {
+    width: 45%;
+    float: left;
+   
+}
+.exam {
+    width: 45%;
+    float: right;
+}
+.maincontent > div {
+    background-color: #212121 ;
+    height: 300px;
+    border: black 2px solid;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+.student_details div{
+    float:left;
+    margin:10px 10px 10px 10px;
+}
+.announcement div{
+    margin:10px 10px 10px 10px;
+}
+
+
+.chart_container, .tinchi{
+    margin: 0 20px;
+    width: 25%;
+    float: left;
+    background-color: #212121;
+    height:400px;
+   
+
+}
+
+
+.subject {
+    clear: right;
+    width: 43%;
+    float: right;
+    height: 400px;
+    background-color: #212121;
+  
+    font-size: 24px;
+}
+
+.subject a {
+    color:rgb(104, 211, 253);
+}
+
+.hocphan{
+    border: rgb(243, 194, 102);
+    border-radius: 50px;
+    padding:20px 20px;
+    margin:10px 10px;
+}
+
+canvas{
+    margin:10px 10px 10px 10px;
+    height:200px;
+}
+
+/*-------------------Footer------------------*/
+footer {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    min-height:100px;
+    clear: both;
+    background-color: #282b30;
+}
+
